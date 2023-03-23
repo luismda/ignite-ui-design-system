@@ -22,6 +22,7 @@ export const Step = styled('div', {
   height: '$1',
   borderRadius: '$px',
   backgroundColor: '$gray600',
+  transition: 'background-color 200ms',
 
   variants: {
     active: {

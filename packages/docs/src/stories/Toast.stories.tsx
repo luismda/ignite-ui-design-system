@@ -31,7 +31,7 @@ export default {
           <Button onClick={() => setOpen(true)}>Show Toast</Button>
           {Story({
             args: {
-              title: 'Schedule',
+              title: 'Scheduled',
               description: <time>Thursday, 23 of March, 04:00 PM</time>,
               position: args.position,
               duration: args.duration,

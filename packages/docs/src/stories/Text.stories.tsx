@@ -8,6 +8,7 @@ export default {
     size: 'md',
     children:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem soluta dolore nam iste. Reiciendis optio modi, sed vitae voluptates quisquam animi, illo quam molestias blanditiis quod eaque asperiores expedita accusamus?',
+    css: { maxWidth: '$space$80' },
   },
   argTypes: {
     size: {
@@ -28,6 +29,11 @@ export default {
       ],
       control: {
         type: 'select',
+      },
+    },
+    css: {
+      control: {
+        type: null,
       },
     },
   },

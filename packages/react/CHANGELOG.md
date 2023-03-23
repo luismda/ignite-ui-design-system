@@ -1,5 +1,11 @@
 # @ig-ui/react
 
+## 2.1.1
+
+### Patch Changes
+
+- Add transition style in MultiStep component
+
 ## 2.1.0
 
 ### Minor Changes

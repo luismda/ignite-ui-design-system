@@ -25,7 +25,12 @@ export default {
       return (
         <Box
           as="label"
-          css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
+          css={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '$2',
+            minWidth: '$space$80',
+          }}
         >
           <Text size="sm">Email address</Text>
           {Story()}

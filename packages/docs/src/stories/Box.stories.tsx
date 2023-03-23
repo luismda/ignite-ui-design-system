@@ -7,6 +7,7 @@ export default {
 
   args: {
     children: <Text>Example text content</Text>,
+    css: { minWidth: '$space$80' },
   },
   argTypes: {
     children: {
