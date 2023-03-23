@@ -18,7 +18,7 @@ export const TextInputContainer = styled('div', {
   },
 
   variants: {
-    size: {
+    variant: {
       sm: {
         padding: '$2 $3',
       },
@@ -29,7 +29,7 @@ export const TextInputContainer = styled('div', {
   },
 
   defaultVariants: {
-    size: 'md',
+    variant: 'md',
   },
 })
 

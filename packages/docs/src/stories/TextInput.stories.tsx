@@ -4,8 +4,22 @@ import { Box, Text, TextInput, TextInputProps } from '@ignite-ui/react'
 export default {
   title: 'Form/Text Input',
   component: TextInput,
-
-  args: {},
+  args: {
+    variant: 'md',
+  },
+  argTypes: {
+    variant: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
+  },
   decorators: [
     (Story) => {
       return (
@@ -23,7 +37,14 @@ export default {
 
 export const Primary: StoryObj<TextInputProps> = {
   args: {
-    placeholder: 'Type your name',
+    placeholder: 'Type your email',
+  },
+}
+
+export const Small: StoryObj<TextInputProps> = {
+  args: {
+    variant: 'sm',
+    placeholder: 'Type your email',
   },
 }
 
