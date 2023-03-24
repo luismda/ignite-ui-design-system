@@ -1,5 +1,11 @@
 # @ig-ui/react
 
+## 2.1.2
+
+### Patch Changes
+
+- Create readme files
+
 ## 2.1.1
 
 ### Patch Changes
