@@ -15,6 +15,11 @@ export default {
         type: null,
       },
     },
+    css: {
+      control: {
+        type: null,
+      },
+    },
   },
 } as Meta<BoxProps>
 
