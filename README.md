@@ -1,26 +1,26 @@
 # Ignite UI - Design System ⚛
 
-Esse projeto é um **Design System** completo desenvolvido com o **Storybook** para documentar os componentes **React.js** que são utilizados nas aplicações desenvolvidas no **Ignite** - bootcamp de especialização da [**Rocketseat**](https://github.com/rocketseat-education). O projeto ainda conta com um pacote em React.js que pode ser baixado pelo **NPM** para reutilizar os componentes documentados no Design System, além do pacote de tokens, que conta com todos os valores padronizados que são utilizados nas aplicações, como cores, fontes, espaçamentos, dentre outros.
+This project is a complete **Design System** developed with **Storybook** to document the **React.js** components that are used in applications developed in **Ignite** - specialization bootcamp of [**Rocketseat**](https://github.com/rocketseat-education). The project still has a package in React.js that can be downloaded by **NPM** to reuse the components documented in the Design System, in addition to the tokens package, which has all the standardized values that are used in applications, such as colors, fonts, spacing, among others.
 
-🚀 [**Veja o Design System completo com o Storybook**](https://luismda.github.io/ignite-ui-design-system/?path=/story/home--page)
+🚀 [**See the complete Design System on Storybook**](https://luismda.github.io/ignite-ui-design-system/?path=/story/home--page)
 
-⚛ [**Acesse o pacote de componentes React no NPM**](https://www.npmjs.com/package/@ig-ui/react)
+⚛ [**Access the React components package in NPM**](https://www.npmjs.com/package/@ig-ui/react)
 
-🎨 [**Acesse o pacote de tokens no NPM**](https://www.npmjs.com/package/@ig-ui/tokens)
+🎨 [**Access the tokens package in NPM**](https://www.npmjs.com/package/@ig-ui/tokens)
 
-## 👀 Sobre o projeto
+## 👀 About the project
 
-Todo o projeto foi desenvolvido usando o conceito de **monorepo**, que basicamente agrupa vários projetos que são dependentes entre si em um único repositório, que pode ser entendido como uma pasta. O principal objetivo de utilizar um monorepo foi **facilitar o gerenciamento das dependências comuns entre os pacotes**, além de conseguir **trabalhar em vários pacotes ao mesmo tempo**, fazendo com que as mudanças em um pacote sejam replicadas para os outros pacotes dependentes.
+The entire project was developed using the concept of **monorepo**, which basically groups several projects that are dependent on each other in a single repository, which can be understood as a folder. The main objective of using a monorepo was to **facilitate the management of common dependencies between packages**, in addition to being able to **work on several packages at the same time**, making the changes in one package be replicated to the others dependent packages.
 
-Além disso, foram utilizadas outras ferramentas muito importantes para o gerenciamento desse monorepo, como o **TSUP** para **facilitar e agilizar o processo de build**, permitindo **formatar a build do pacote em ES Modules e Common JS**, além de **possibilitar o build em tempo real a cada alteração nos pacotes**. Além disso, foi utilizado também o **TuboRepo** para **executar scripts em todos os pacotes do monorepo ao mesmo tempo** e para deixar o **processo de build ainda mais performático com a configuração do remote cache na Vercel**. Foi utilizado também o **Changeset**, uma ferramenta que permite **automatizar e facilitar o processo de versionamento e changelogs para publicação dos pacotes no NPM**.
+In addition, other very important tools were used to manage this monorepo, such as **TSUP** to **facilitate and speed up the build process**, allowing **formatting the package build in ES Modules and Common JS**, in addition to **enabling the build in real time with each change in packages**. In addition, **TuboRepo** was also used to **execute scripts in all monorepo packages at the same time** and to make the **build process even more performant with the configuration of the remote cache in Vercel** . **Changeset** was also used, a tool that allows **automating and facilitating the process of versioning and changelogs for publishing packages on NPM**.
 
-A documentação dos componentes foi feita utilizando o **Storybook**, que permite organizar e separar os componentes em **stories**, além de possibilitar a **documentação de todas as variantes de um componente e o controle de todas as suas propriedades por meio de uma interface gráfica**. Além disso, o Storybook permite a **integração de novos addons**, que são como plugins, que permitem, por exemplo, o uso de **testes unitários** e **testes de acessibilidade** nos componentes.
+The documentation of the components was done using the **Storybook**, which allows organizing and separating the components into **stories**, in addition to enabling the **documentation of all variants of a component and the control of all its properties through a graphical interface**. In addition, Storybook allows the **integration of new addons**, which are like plugins, which allow, for example, the use of **unit tests** and **accessibility tests** in components.
 
-Dentro do Storybook, além de documentar os componentes foi criado uma sessão de **tokens**, que relaciona todos os valores padronizados que são utilizados nas aplicações do Ignite, como cores, fontes, espaçamentos, dentre outros. Isso garante que todas as aplicações que seguirem essa documentação ficarão com suas interfaces padronizadas.
+Within the Storybook, in addition to documenting the components, a **tokens** session was created, which lists all the standardized values ​​that are used in Ignite applications, such as colors, fonts, spacing, among others. This guarantees that all applications that follow this documentation will have their standardized interfaces.
 
-Por fim, utilizando o **GitHub Actions** foi criado um **workflow de CI/CD** para o **deploy da documentação do Storybook no GitHub Pages**, e também para a **publicação de novas atualizações dos pacotes no NPM**, integrando também com o **serviço de remote cache oferecido pela Vercel** e o **cache de dependências do NPM**, para que a build fique mais rápida no momento do deploy.
+Finally, using **GitHub Actions**, a **CI/CD workflow** was created for **deploying the Storybook documentation on GitHub Pages**, and also for **publishing new package updates in NPM**, also integrating with the **remote cache service offered by Vercel** and the **NPM dependencies cache**, so that the build is faster when deploying.
 
-## 🧰 Ferramentas e tecnologias utilizadas
+## 🧰 Tools and technologies
 
 - TypeScript
 - Monorepo
