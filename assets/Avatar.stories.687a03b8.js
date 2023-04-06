@@ -1,0 +1,2 @@
+import{A as t}from"./index.34719771.js";import"./index.396906fc.js";import"./iframe.9418bedc.js";import"./index.65719505.js";import"./jsx-runtime.2dbab1df.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/luismda.png",alt:"Lu\xEDs Miguel"},argTypes:{src:{control:{type:"text"}}}},c={},m={args:{src:void 0}},e=["Primary","WithFallback"];export{c as Primary,m as WithFallback,e as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories.687a03b8.js.map

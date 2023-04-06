@@ -1,0 +1,2 @@
+import{t as a}from"./index.fc899bed.js";import"./iframe.9418bedc.js";import"./es.map.constructor.a40ca552.js";import"./es.number.to-fixed.06b9238c.js";import"./index.396906fc.js";const c={actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/}},docs:{theme:a.dark},layout:"centered",backgrounds:{default:"gray900",values:[{name:"black",value:"#000000"},{name:"gray900",value:"#121214"},{name:"gray100",value:"#E1E1E6"}]}};export{c as parameters};
+//# sourceMappingURL=preview.d090548e.js.map
